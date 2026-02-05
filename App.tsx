@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import ConfirmationPage from './components/ConfirmationPage';
-import { GoogleGenAI } from "@google/genai";
+
 
 const App: React.FC = () => {
   const [isConfirmed, setIsConfirmed] = useState(false);
